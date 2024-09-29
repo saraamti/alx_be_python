@@ -1,12 +1,13 @@
-def perform_operation (num1, num2, operation):
+def perform_operation(num1, num2, operation):
     """
     Perform basic arithmetic operations based on the input.
-    
+
     :param num1: First number (float)
     :param num2: Second number (float)
     :param operation: A string representing the operation ('add', 'subtract', 'multiply', 'divide')
     :return: Result of the operation or a message if division by zero occurs
     """
+    
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -20,4 +21,3 @@ def perform_operation (num1, num2, operation):
             return "Cannot divide by zero"
     else:
         return "Invalid operation"
-    

@@ -1,6 +1,6 @@
 # Define global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Ensure this is exactly '9 / 5' without any extra spaces or formatting differences
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9  # Ensure no extra spaces around the operator
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5  # Ensure no extra spaces around the operator
 
 # Function to convert Fahrenheit to Celsius
 def convert_to_celsius(fahrenheit):

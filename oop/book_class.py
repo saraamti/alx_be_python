@@ -8,7 +8,8 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Book '{self.title}' created.")
+        # Remove or comment out the following line to match expected output
+        # print(f"Book '{self.title}' created.")
 
     def __del__(self):
         """Destructor that prints a message when a Book instance is deleted."""
